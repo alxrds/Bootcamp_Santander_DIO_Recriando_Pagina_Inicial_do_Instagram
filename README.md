@@ -1,4 +1,4 @@
-# bootcamp santander e dio 
-## recriando pagina inicial do instagram
+# Bootcamp Santander e DIO 
+## Recriando Pagina Inicial do Instagram
 
-![img](http://i.imgur.com/yourfilename.png)
+![img]([http://i.imgur.com/yourfilename.png](https://raw.githubusercontent.com/alxrds/bootcamp_santander_dio_recriando_pagina_inicial_do_instagram/eabbd9aa30c77d3cbd0b1db64bf7e55a4ace4e30/assets/images/print.PNG))
