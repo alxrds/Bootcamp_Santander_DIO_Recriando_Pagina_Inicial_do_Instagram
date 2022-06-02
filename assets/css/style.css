@@ -1,0 +1,126 @@
+*{
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.container{
+    display: flex;   
+}
+
+.div-celular{
+    width: 420px;
+}
+
+.div-celular img{
+    padding-top: 20px;
+    padding-left: 145px;
+    height: 87%;
+    position: relative;
+}
+
+.img-celular{
+    background-image: url("../images/1dc085cdb87d.png");
+    height: 600px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.img-rand{
+    display:none;
+  }
+
+.div-controle{
+    padding: 10px;
+}
+
+.div-login{
+    background-color: white;
+    border: 1px #CCC solid;
+    height: 370px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.div-login img{
+    padding-top: 30px;
+}
+
+.div-login hr{
+    height:1px;
+    border-width:0;
+    color:#f1f1f1;
+    background-color:#f1f1f1;
+}
+
+.foto-perfil img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: #0095F6;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.div-login p{
+    padding-bottom: 10px;
+}
+
+.div-trocar{
+    background-color: white;
+    border: 1px #CCC solid;
+    height: 20px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+}
+
+.div-trocar a{
+    text-decoration: none;
+    color: #0095F6;
+}
+
+.div-btn-lojas p{
+    text-align: center;
+}
+
+.btn-lojas{
+    text-align: center;
+}
+
+.btn-google-play{
+    margin-right: 2px;
+    height: 40px;
+}
+
+.btn-apple-store{
+    margin-left: 2px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 792px) {
+    .div-celular {
+      display: none;
+    }
+  }
+

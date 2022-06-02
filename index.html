@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section>
+        <main>
+            <div class="container">
+                <div class="div-celular">
+                    <div class="img-celular">
+                        <img class="img-rand" src="assets/images/94edb770accf.png" alt="">
+                        <img class="img-rand" src="assets/images/4d62acb667fb.png" alt="">
+                        <img class="img-rand" src="assets/images/a4fd825e3d49.png" alt="">
+                        <img class="img-rand" src="assets/images//fdfe239b7c9f.png" alt="">
+                    </div>
+                </div>
+                <div class="div-controle">
+                    <div class="div-login">
+                        <img alt="Instagram" class="" src="assets/images/7a252de00b20.png" alt="">
+                        <div class="foto-perfil">
+                            <img src="assets/images/160950039_330431985413566_2559540972621016089_n.jpg" alt="">
+                        </div>
+                        <div>
+                            <p><strong>alexandre.rodrigues.dos.santos</strong></p>
+                        </div>
+                        <div>
+                            <a href=""><button class="btn">Entrar</button></a>
+                        </div>
+                    </div>
+                    <div class="div-trocar">
+                        <strong><a href="">Trocar de conta</a></strong> ou 
+                        <strong><a href="">Cadastre-se</a></strong>
+                    </div>                     
+                    <div class="div-btn-lojas">
+                        <p>Obtenha o aplicativo.</p>
+                        <div class="btn-lojas">
+                            <a href=""><img class="btn-google-play" src="assets/images/2f2a0c05b2f3.png" alt="Google Play"></a>
+                            <a href=""><img class="btn-apple-store" src="assets/images/68006a2bb372.png" alt="IOS Store"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+        var index = 0;
+        function changeImage(){
+
+        var rand = Math.floor (Math.random () * 4)
+        jQuery('.img-rand').eq(index).fadeIn(function(){
+            jQuery('.img-rand').delay(2500).eq(index).fadeOut(function(){
+                index++;
+                if (index > 3) index = 0;
+                changeImage();
+            });
+        });
+        
+        }
+        changeImage();
+    </script>
+
+</body>
+</html>
